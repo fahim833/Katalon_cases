@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Site_test_suite,Chrome 74.0.3729.131,,2019-05-01 12:57:58,2019-05-01 12:58:12,14.268s,PASSED
+,,,,,,
+Test Cases/Site_test,Chrome 74.0.3729.131,,2019-05-01 12:57:58,2019-05-01 12:58:05,7.550s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-01 12:57:58,2019-05-01 12:58:00,1.909s,PASSED
+"navigateToUrl(""https://primenorthplainfieldnissan.cms.dealer.com/"")",Chrome 74.0.3729.131,,2019-05-01 12:58:00,2019-05-01 12:58:02,2.208s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:02,2019-05-01 12:58:02,0.129s,PASSED
+getUrl(CONTINUE_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-01 12:58:02,2019-05-01 12:58:02,0.019s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:02,2019-05-01 12:58:04,1.496s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:04,2019-05-01 12:58:04,0.068s,PASSED
+"verifyElementPresent(findTestObject(""Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), 0, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:04,2019-05-01 12:58:04,0.028s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:04,2019-05-01 12:58:04,0.080s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:04,2019-05-01 12:58:05,1.183s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:05,2019-05-01 12:58:05,0.059s,PASSED
+"verifyElementPresent(findTestObject(""Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), 0, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:05,2019-05-01 12:58:05,0.068s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-01 12:58:05,2019-05-01 12:58:05,0.117s,PASSED
+,,,,,,
+Test Cases/Site_test,Chrome 74.0.3729.131,,2019-05-01 12:58:05,2019-05-01 12:58:12,6.572s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-01 12:58:05,2019-05-01 12:58:06,0.927s,PASSED
+"navigateToUrl(""https://primenorthplainfieldnissan.cms.dealer.com/"")",Chrome 74.0.3729.131,,2019-05-01 12:58:06,2019-05-01 12:58:09,2.181s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:09,2019-05-01 12:58:09,0.570s,PASSED
+getUrl(CONTINUE_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-01 12:58:09,2019-05-01 12:58:09,0.008s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:09,2019-05-01 12:58:10,1.215s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:10,2019-05-01 12:58:10,0.067s,PASSED
+"verifyElementPresent(findTestObject(""Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), 0, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:10,2019-05-01 12:58:10,0.023s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:10,2019-05-01 12:58:11,0.077s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:11,2019-05-01 12:58:12,1.252s,PASSED
+"click(findTestObject(""Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:12,2019-05-01 12:58:12,0.057s,PASSED
+"verifyElementPresent(findTestObject(""Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues""), 0, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-01 12:58:12,2019-05-01 12:58:12,0.071s,PASSED
+closeBrowser(CONTINUE_ON_FAILURE),Chrome 74.0.3729.131,,2019-05-01 12:58:12,2019-05-01 12:58:12,0.115s,PASSED

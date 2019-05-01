@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Site_test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43890c53-a093-412b-b618-f6181dcaf7dc</testCaseGuid>
+   <variable>
+      <defaultValue>'http://syedrahmansandbox.cms.dealer.com/'</defaultValue>
+      <description></description>
+      <id>63d81b0c-7af1-407f-8770-2e00cedbb577</id>
+      <masked>false</masked>
+      <name>URLs</name>
+   </variable>
+</TestCaseEntity>

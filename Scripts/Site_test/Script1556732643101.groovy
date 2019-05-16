@@ -15,15 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://primenorthplainfieldnissan.cms.dealer.com/')
+WebUI.navigateToUrl('http://syedrahmansandbox.cms.dealer.com/')
 
-WebUI.click(findTestObject('Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.getUrl(FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Site_Test/Page_About  Syeds Audi/a
 
 WebUI.click(findTestObject('Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://syedrahmansandbox.cms.dealer.com/'</initValue>
+      <name>BaseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dealership/about.htm'</initValue>
+      <name>AboutUsURLStub</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'contact.htm'</initValue>
+      <name>ContactURLStub</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

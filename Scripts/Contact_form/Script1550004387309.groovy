@@ -15,19 +15,28 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://syedrahmansandbox.cms.dealer.com/')
+WebUI.navigateToUrl(GlobalVariable.BaseURL)
 
-WebUI.click(findTestObject('Object Repository/Contact_form/Page_Syeds Audi  Audi Dealership in/a_AboutOur Dealership'))
+String contactURL = WebUI.concatenate((([GlobalVariable.BaseURL, GlobalVariable.ContactURLStub]) as String[]), FailureHandling.STOP_ON_FAILURE)
+String aboutURL = WebUI.concatenate ((([GlobalVariable.BaseURL, GlobalVariable.AboutUsURLStub]) as String[]), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Contact_form/Page_Syeds Audi  Audi Dealership in/a_Contact Us'))
+//System.out.println(contactURL)//
 
-WebUI.setText(findTestObject('Object Repository/Contact_form/Page_Contact Us  Syeds Audi/input__contact.firstName'), 'Dealer')
 
-WebUI.setText(findTestObject('Object Repository/Contact_form/Page_Contact Us  Syeds Audi/input__contact.lastName'), 'Dotcom')
+WebUI.navigateToUrl(aboutURL)
+WebUI.navigateToUrl(contactURL)
 
-WebUI.setText(findTestObject('Object Repository/Contact_form/Page_Contact Us  Syeds Audi/input_Email_contact.email'), 'ddc_123@email.com')
+//WebUI.click(findTestObject('Object Repository/Contact_form/Page_About  Syeds Audi/a_About Our Dealership'))//
 
-WebUI.click(findTestObject('Object Repository/Contact_form/Page_Contact Us  Syeds Audi/button_Submit'))
+//WebUI.click(findTestObject('Object Repository/Contact_form/Page_About  Syeds Audi/a_Contact Us'))//
+
+WebUI.setText(findTestObject('Contact_form/Page_Contact Us  Syeds Audi/input__contact.firstName'), 'Dealer')
+
+WebUI.setText(findTestObject('Contact_form/Page_Contact Us  Syeds Audi/input__contact.lastName'), 'Dotcom')
+
+WebUI.setText(findTestObject('Contact_form/Page_Contact Us  Syeds Audi/input_Email_contact.email'), 'ddc_123@email.com')
 
 WebUI.closeBrowser()
+
+
 

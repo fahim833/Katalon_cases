@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>cf06978f-789c-4d08-bcdb-05852e9698ec</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.BaseURL</defaultValue>
+      <description></description>
+      <id>222b3d1c-912a-4379-9d7e-32ad029dc5ce</id>
+      <masked>false</masked>
+      <name>BaseURL</name>
+   </variable>
 </TestCaseEntity>

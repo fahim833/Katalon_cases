@@ -9,8 +9,41 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[4]/following::div[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '
+
+Hours 
+
+
+Monday 8AM - 7PM
+Tuesday 8AM - 7PM
+Wednesday 8AM - 7PM
+Thursday 8AM - 7PM
+Friday 8AM - 7PM
+Saturday 9AM - 5PM
+Sunday 
+
+' or . = '
+
+Hours 
+
+
+Monday 8AM - 7PM
+Tuesday 8AM - 7PM
+Wednesday 8AM - 7PM
+Thursday 8AM - 7PM
+Friday 8AM - 7PM
+Saturday 9AM - 5PM
+Sunday 
+
+')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +98,14 @@ Sunday
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;vertical-12 audi ddc-site single-franchise alias-contact-default v9-global-0011-v2 dark-gray-white js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths&quot;]/body[1]/div[@class=&quot;ddc-wrapper&quot;]/div[@class=&quot;container main&quot;]/div[@class=&quot;page-bd&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;ddc-span4&quot;]/div[@class=&quot;hours-default ddc-content box box-padding&quot;]</value>
+      <value>/html/body/div[5]/div[2]/div/div/div[2]/div[3]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Hours</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

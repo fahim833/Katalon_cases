@@ -1,44 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Hours Monday 8AM - 7PMTues</name>
+   <name>div_2018 (5)</name>
    <tag></tag>
-   <elementGuidId>a8ee1fd2-94d5-44cc-8ee3-ea109e6379d9</elementGuidId>
+   <elementGuidId>8f397724-383a-43f2-9439-3ab02a109b65</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[4]/following::div[1]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//div[@id='inventory-listing1-collapse-content-year']/div/ul/li/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//div[(text() = '
 
-Hours 
 
-
-Monday 8AM - 7PM
-Tuesday 8AM - 7PM
-Wednesday 8AM - 7PM
-Thursday 8AM - 7PM
-Friday 8AM - 7PM
-Saturday 9AM - 5PM
-Sunday 
+2018 (5)
 
 ' or . = '
 
-Hours 
 
-
-Monday 8AM - 7PM
-Tuesday 8AM - 7PM
-Wednesday 8AM - 7PM
-Thursday 8AM - 7PM
-Friday 8AM - 7PM
-Saturday 9AM - 5PM
-Sunday 
+2018 (5)
 
 ')]</value>
       </entry>
@@ -57,21 +38,7 @@ Sunday
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>hours-default ddc-content box box-padding</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-widget-name</name>
-      <type>Main</type>
-      <value>hours-default</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-widget-id</name>
-      <type>Main</type>
-      <value>hours1</value>
+      <value>form-group</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,16 +47,8 @@ Sunday
       <type>Main</type>
       <value>
 
-Hours 
 
-
-Monday 8AM - 7PM
-Tuesday 8AM - 7PM
-Wednesday 8AM - 7PM
-Thursday 8AM - 7PM
-Friday 8AM - 7PM
-Saturday 9AM - 5PM
-Sunday 
+2018 (5)
 
 </value>
    </webElementProperties>
@@ -98,31 +57,36 @@ Sunday
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[5]/div[2]/div/div/div[2]/div[2]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value></value>
+      <value>id(&quot;inventory-listing1-collapse-content-year&quot;)/div[@class=&quot;panel-body&quot;]/ul[@class=&quot;list-unstyled nav-stacked facetlist-year facet-type-ranged&quot;]/li[@class=&quot;facetmulti-item&quot;]/div[@class=&quot;form-group&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[4]/following::div[1]</value>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='inventory-listing1-collapse-content-year']/div/ul/li/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[2]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Year'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyword'])[1]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(306)'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[2]</value>
+      <value>//div/ul/li/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Site_test_suite" time="10" tests="2" failures="0" errors="0">
+   <testsuite name="Site_test_suite" tests="2" failures="0" errors="0" time="10" timestamp="2019-05-01 13:17:21" hostname="sarahman - 10.134.122.148" id="Test Suites/Site_test_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sarahman/Katalon Studio/Sample/Test Cases/Katalon_cases/Test Cases/Katalon_cases /Reports/Site_test_suite/20190501_131645"/>
+         <property name="logFiles" value="/Users/sarahman/Katalon Studio/Sample/Test Cases/Katalon_cases/Test Cases/Katalon_cases /Reports/Site_test_suite/20190501_131645/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sarahman - 10.134.122.148"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="64.70.56.99"/>
+         <property name="sessionId" value="918122c13e602c4fb1025bfa7d36a408"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Site_test" classname="Test Cases/Site_test" status="PASSED">
+         <system-out><![CDATA[2019-05-01 13:17:21 - [TEST_CASE][PASSED] - Test Cases/Site_test: Test Cases/Site_test
+
+2019-05-01 13:17:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-01 13:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-01 13:17:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-01 13:17:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-01 13:17:23 - [TEST_STEP][PASSED] - navigateToUrl("http://syedrahmansandbox.cms.dealer.com/"): Navigate to 'http://syedrahmansandbox.cms.dealer.com/' successfully
+
+2019-05-01 13:17:24 - [MESSAGE][PASSED] - Navigate to 'http://syedrahmansandbox.cms.dealer.com/' successfully
+
+2019-05-01 13:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:25 - [TEST_STEP][PASSED] - getUrl(CONTINUE_ON_FAILURE): Current window's url is: 'http://syedrahmansandbox.cms.dealer.com/'
+
+2019-05-01 13:17:25 - [MESSAGE][PASSED] - Current window's url is: 'http://syedrahmansandbox.cms.dealer.com/'
+
+2019-05-01 13:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us' is clicked on
+
+2019-05-01 13:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us' is clicked on
+
+2019-05-01 13:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 13:17:25 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us' is clicked on
+
+2019-05-01 13:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us' is clicked on
+
+2019-05-01 13:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 13:17:26 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:26 - [TEST_STEP][PASSED] - closeBrowser(CONTINUE_ON_FAILURE): Browser is closed
+
+2019-05-01 13:17:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Site_test" classname="Test Cases/Site_test" status="PASSED">
+         <system-out><![CDATA[2019-05-01 13:17:26 - [TEST_CASE][PASSED] - Test Cases/Site_test: Test Cases/Site_test
+
+2019-05-01 13:17:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-01 13:17:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-01 13:17:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-01 13:17:27 - [TEST_STEP][PASSED] - navigateToUrl("http://syedrahmansandbox.cms.dealer.com/"): Navigate to 'http://syedrahmansandbox.cms.dealer.com/' successfully
+
+2019-05-01 13:17:29 - [MESSAGE][PASSED] - Navigate to 'http://syedrahmansandbox.cms.dealer.com/' successfully
+
+2019-05-01 13:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:29 - [TEST_STEP][PASSED] - getUrl(CONTINUE_ON_FAILURE): Current window's url is: 'http://syedrahmansandbox.cms.dealer.com/'
+
+2019-05-01 13:17:29 - [MESSAGE][PASSED] - Current window's url is: 'http://syedrahmansandbox.cms.dealer.com/'
+
+2019-05-01 13:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us' is clicked on
+
+2019-05-01 13:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Us' is clicked on
+
+2019-05-01 13:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 13:17:30 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Test/Page_About  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_About Our Dealership' is clicked on
+
+2019-05-01 13:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us' is clicked on
+
+2019-05-01 13:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_About  Syeds Audi/a_Contact Us' is clicked on
+
+2019-05-01 13:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), CONTINUE_ON_FAILURE): Object: 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is clicked on
+
+2019-05-01 13:17:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues"), 0, CONTINUE_ON_FAILURE): Object 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-01 13:17:31 - [MESSAGE][PASSED] - Object 'Object Repository/Site_Test/Page_Contact Us  Syeds Audi/div_Hours Monday 8AM - 7PMTues' is present
+
+2019-05-01 13:17:31 - [TEST_STEP][PASSED] - closeBrowser(CONTINUE_ON_FAILURE): Browser is closed
+
+2019-05-01 13:17:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-01 13:17:21 - [TEST_SUITE][PASSED] - Site_test_suite: Test Cases/Site_test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

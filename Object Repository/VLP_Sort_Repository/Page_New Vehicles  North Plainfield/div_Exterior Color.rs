@@ -6,10 +6,6 @@
    <elementGuidId>cc270306-0865-45d7-be67-06bc60f5f0d4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='(1)'])[16]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = '
 
@@ -185,6 +181,10 @@ White (79)
  					 				
 ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(1)'])[16]/following::div[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -314,18 +314,20 @@ White (79)
       <matchCondition>equals</matchCondition>
       <name>rxpath</name>
       <type>Main</type>
-      <value>//?/div[@safeclass~'\bddc-box-1\b.*\bddc-content\b.*\bfacetlist\b.*\bfacetlist-normalExteriorColor\b.*\bpanel\b.*\bpanel-default\b']</value>
+      <value>//fieldset[@class='facetmulti-fieldset'][6]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(1)'])[16]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//fieldset[6]/div</value>
    </webElementXpaths>
 </WebElementEntity>

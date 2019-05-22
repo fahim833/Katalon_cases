@@ -6,10 +6,6 @@
    <elementGuidId>ccb59e64-19e0-4253-8c64-6320a7d17ba4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='(10)'])[4]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = '
 
@@ -95,6 +91,10 @@ Gasoline (305)
  					 				
 ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(10)'])[4]/following::div[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -179,18 +179,20 @@ Gasoline (305)
       <matchCondition>equals</matchCondition>
       <name>rxpath</name>
       <type>Main</type>
-      <value>//?/div[@safeclass~'\bddc-box-1\b.*\bddc-content\b.*\bfacetlist\b.*\bfacetlist-normalFuelType\b.*\bpanel\b.*\bpanel-default\b']</value>
+      <value>//fieldset[@class='facetmulti-fieldset'][12]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(10)'])[4]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//fieldset[12]/div</value>
    </webElementXpaths>
 </WebElementEntity>

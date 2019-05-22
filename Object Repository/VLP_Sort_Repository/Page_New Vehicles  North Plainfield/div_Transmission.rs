@@ -6,10 +6,6 @@
    <elementGuidId>455d9414-2381-4239-ac74-e29215a1b00b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='(5)'])[6]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = '
 
@@ -76,6 +72,10 @@ CVT (283)
 
  					 				
 ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(5)'])[6]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -152,18 +152,20 @@ CVT (283)
       <matchCondition>equals</matchCondition>
       <name>rxpath</name>
       <type>Main</type>
-      <value>//?/div[@safeclass~'\bddc-box-1\b.*\bddc-content\b.*\bfacetlist\b.*\bfacetlist-normalTransmission\b.*\bpanel\b.*\bpanel-default\b']</value>
+      <value>//fieldset[@class='facetmulti-fieldset'][9]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(5)'])[6]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//fieldset[9]/div</value>
    </webElementXpaths>
 </WebElementEntity>

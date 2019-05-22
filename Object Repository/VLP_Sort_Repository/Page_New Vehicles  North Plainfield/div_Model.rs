@@ -6,10 +6,6 @@
    <elementGuidId>3b9d27ec-001a-402e-a718-bb918e777887</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='(306)'])[1]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = '
 
@@ -365,6 +361,10 @@ Versa (4)
  					 				
 ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(306)'])[1]/following::div[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -584,24 +584,27 @@ Versa (4)
       <matchCondition>equals</matchCondition>
       <name>rxpath</name>
       <type>Main</type>
-      <value>//?/div[@safeclass~'\bddc-box-1\b.*\bddc-content\b.*\bfacetlist\b.*\bfacetlist-model\b.*\bpanel\b.*\bpanel-default\b']</value>
+      <value>//fieldset[@class='facetmulti-fieldset'][2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(306)'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(5)'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//fieldset[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

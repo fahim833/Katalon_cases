@@ -6,10 +6,6 @@
    <elementGuidId>fa762d4e-5447-4587-a90b-90330aeef129</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='(1)'])[11]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[(text() = '
 
@@ -203,6 +199,10 @@ Van Passenger Van (1)
  					 				
 ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(1)'])[11]/following::div[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -341,18 +341,20 @@ Van Passenger Van (1)
       <matchCondition>equals</matchCondition>
       <name>rxpath</name>
       <type>Main</type>
-      <value>//?/div[@safeclass~'\bddc-box-1\b.*\bddc-content\b.*\bfacetlist\b.*\bfacetlist-bodyStyle\b.*\bpanel\b.*\bpanel-default\b']</value>
+      <value>//fieldset[@class='facetmulti-fieldset'][4]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(1)'])[11]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//fieldset[4]/div</value>
    </webElementXpaths>
 </WebElementEntity>

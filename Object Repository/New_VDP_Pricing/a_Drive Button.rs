@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>btn btn-default dialog px-0 btn-no-decoration align-center</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -62,7 +62,7 @@
       <value>Schedule a Test Drive</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -78,7 +78,7 @@
       <value>/html[@class=&quot;responsive-grid dodge vdp vdp-responsive multi-franchise alias-auto-new-details chrysler vertical-12 blue-white ddc-site v9-oem-cllc-0003-v1 jeep responsive-type ram js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths mycars-logged-out mycars-toolbar-position-top&quot;]/body[@class=&quot;edm-eva&quot;]/div[@class=&quot;ddc-wrapper&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;page-bd&quot;]/div[@class=&quot;container vdp-details-container&quot;]/div[@class=&quot;row vdp-details-main&quot;]/div[@class=&quot;sidebar vdp-sidebar responsive-content-default col-xs-4 position-relative&quot;]/div[@class=&quot;clearfix box box-padding box-border vdp-sidebar-main&quot;]/div[@class=&quot;links-list ddc-content responsive-content-mid-hide responsive-content-min-hide sidebar-links&quot;]/ul[@class=&quot;yui3-g d-flex list-unstyled m-0&quot;]/li[@class=&quot;flex-col&quot;]/a[@class=&quot;btn btn-default dialog px-0 btn-no-decoration align-center&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>

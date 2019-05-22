@@ -10,10 +10,10 @@
          <value>//div[@id='vehicle-ctas1-app-root']/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>btn btn-block btn-primary dialog</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>dialog</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
@@ -55,7 +55,7 @@
       <value>375</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -69,7 +69,7 @@
       <value>id(&quot;vehicle-ctas1-app-root&quot;)/div[@class=&quot;vehicle-ctas&quot;]/div[@class=&quot;price-btn cst-btn-1 mb-3&quot;]/a[@class=&quot;btn btn-block btn-primary dialog&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

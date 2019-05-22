@@ -13,7 +13,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +34,7 @@
       <value>text-success discount</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -48,7 +48,7 @@
       <value>id(&quot;detailed-pricing1-app-root&quot;)/div[1]/dl[@class=&quot;pricing-detail line-height-condensed mb-sm-4 inv-type-new&quot;]/dd[@class=&quot;text-success discount&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

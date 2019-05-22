@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ask</name>
+   <name>Ask Button</name>
    <tag></tag>
    <elementGuidId>594f3e86-ed8e-4fcc-a44a-90e37d539d35</elementGuidId>
    <selectorCollection>

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://syedrahmansandbox.cms.dealer.com/')
+WebUI.navigateToUrl('https://autogalleryimportswestbury2.cms.dealer.com/')
 
 WebUI.click(findTestObject('Site_Test/Page_Syeds Audi  New Audi Dealershi/a_About Our Dealership'), FailureHandling.CONTINUE_ON_FAILURE)
 

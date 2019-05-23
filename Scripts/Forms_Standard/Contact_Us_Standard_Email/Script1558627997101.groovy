@@ -21,13 +21,17 @@ String contactURL = WebUI.concatenate((([GlobalVariable.BaseURL, GlobalVariable.
 
 WebUI.navigateToUrl(contactURL)
 
-//WebUI.click(findTestObject('Object Repository/Contact_form/Page_About  Syeds Audi/a_About Our Dealership'))//
-//WebUI.click(findTestObject('Object Repository/Contact_form/Page_About  Syeds Audi/a_Contact Us'))//
-WebUI.setText(findTestObject('Contact_form/Page_Contact Us  Syeds Audi/input__contact.firstName'), 'Dealer')
+WebUI.setText(findTestObject('Forms_Standard/Contact_Us/FirstName'), 'Test')
 
-WebUI.setText(findTestObject('Contact_form/Page_Contact Us  Syeds Audi/input__contact.lastName'), 'Dotcom')
+WebUI.setText(findTestObject('Forms_Standard/Contact_Us/LastName'), 'DealerCom')
 
-WebUI.setText(findTestObject('Contact_form/Page_Contact Us  Syeds Audi/input_Email_contact.email'), 'ddc_123@email.com')
+WebUI.selectOptionByLabel(findTestObject('Forms_Standard/Contact_Us/PreferredContact'), 'Email', false)
+
+WebUI.setText(findTestObject('Forms_Standard/Contact_Us/EmailAddress'), 'test@test.com')
+
+WebUI.setText(findTestObject('Forms_Standard/Contact_Us/CommentForm'), 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.')
+
+WebUI.click(findTestObject('Forms_Standard/Contact_Us/SubmitButton'))
 
 WebUI.closeBrowser()
 

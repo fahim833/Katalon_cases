@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit a Test Lead for Contact Us form</description>
+   <name>Contact_Us_Standard_Phone</name>
+   <tag>form, test lead</tag>
+   <comment></comment>
+   <testCaseGuid>a5d8d691-8e6f-47cc-bc10-93b2b9a8988a</testCaseGuid>
+</TestCaseEntity>

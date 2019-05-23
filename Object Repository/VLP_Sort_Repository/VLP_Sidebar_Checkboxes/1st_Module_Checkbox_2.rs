@@ -6,12 +6,12 @@
    <elementGuidId>c2e35d68-2f5c-46e3-a0d0-da03a635e99c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@rxpath = '//fieldset[1]//ul/li[2]//input[@type]']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='year']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@rxpath = '//fieldset[1]//ul/li[2]//input[@type]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

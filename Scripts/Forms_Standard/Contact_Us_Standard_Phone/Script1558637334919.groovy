@@ -13,21 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Open the Browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.BaseURL)
+'Get the Desired URL'
+String contactURL = WebUI.concatenate((([GlobalVariable.URLBase, GlobalVariable.URLStubContact]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-String contactURL = WebUI.concatenate((([GlobalVariable.BaseURL, GlobalVariable.ContactURLStub]) as String[]), FailureHandling.STOP_ON_FAILURE)
-
+'Open the Desired URL'
 WebUI.navigateToUrl(contactURL)
 
-WebUI.setText(findTestObject('Forms_Standard/Contact_Us/FirstName'), 'Test')
+'Enter the First Name'
+WebUI.setText(findTestObject('Forms_Standard/Contact_Us/FirstName'), GlobalVariable.FirstName)
 
-WebUI.setText(findTestObject('Forms_Standard/Contact_Us/LastName'), 'DealerCom')
+'Enter the Last Name'
+WebUI.setText(findTestObject('Forms_Standard/Contact_Us/LastName'), GlobalVariable.LastName)
 
+'Select Contact Preference: Email'
 WebUI.selectOptionByLabel(findTestObject('Forms_Standard/Contact_Us/PreferredContact'), 'Phone', false)
 
-WebUI.setText(findTestObject('Forms_Standard/Contact_Us/PhoneNumber'), '8025555555')
+'Enter the Email Address'
+WebUI.setText(findTestObject('Forms_Standard/Contact_Us/PhoneNumber'), GlobalVariable.PhoneNumber)
 
 WebUI.setText(findTestObject('Forms_Standard/Contact_Us/CommentForm'), 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.')
 

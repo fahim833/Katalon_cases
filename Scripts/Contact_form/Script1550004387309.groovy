@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.BaseURL)
+WebUI.navigateToUrl(GlobalVariable.URLBase)
 
-String contactURL = WebUI.concatenate((([GlobalVariable.BaseURL, GlobalVariable.ContactURLStub]) as String[]), FailureHandling.STOP_ON_FAILURE)
+String contactURL = WebUI.concatenate((([GlobalVariable.URLBase, GlobalVariable.URLStubContact]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(contactURL)
 

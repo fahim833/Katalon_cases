@@ -5,4 +5,11 @@
    <tag>form, test lead</tag>
    <comment></comment>
    <testCaseGuid>3de61336-0dec-447e-a8b9-4e21b0b01e0a</testCaseGuid>
+   <variable>
+      <defaultValue>'pre-owned'</defaultValue>
+      <description></description>
+      <id>58c6168d-bed3-4627-82d7-1a122e36dbc2</id>
+      <masked>false</masked>
+      <name>oem</name>
+   </variable>
 </TestCaseEntity>

@@ -6,17 +6,67 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://syedrahmansandbox.cms.dealer.com/'</initValue>
-      <name>BaseURL</name>
+      <initValue>'http://ricardomartinezsandbox.cms.dealer.com/'</initValue>
+      <name>URLBase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'dealership/about.htm'</initValue>
-      <name>AboutUsURLStub</name>
+      <name>URLStubAboutUs</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'contact.htm'</initValue>
-      <name>ContactURLStub</name>
+      <name>URLStubContact</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default First Name</description>
+      <initValue>'Dealer'</initValue>
+      <name>FirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Last Name</description>
+      <initValue>'Dealer.com'</initValue>
+      <name>LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Date of Birth</description>
+      <initValue>'02/19/1998'</initValue>
+      <name>DOB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Email Address</description>
+      <initValue>'test@test.com'</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Phone Number</description>
+      <initValue>'802-555-5555'</initValue>
+      <name>PhoneNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default SSN</description>
+      <initValue>'000-11-2222'</initValue>
+      <name>SSN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Street</description>
+      <initValue>'1 Howard St'</initValue>
+      <name>Street</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default City</description>
+      <initValue>'Burlington'</initValue>
+      <name>City</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default State</description>
+      <initValue>'VT'</initValue>
+      <name>State</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Zip Code</description>
+      <initValue>'10010'</initValue>
+      <name>Zip</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

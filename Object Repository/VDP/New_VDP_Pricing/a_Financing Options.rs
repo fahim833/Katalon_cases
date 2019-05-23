@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Financing Options</name>
    <tag></tag>
-   <elementGuidId>cbfe5e96-4d6e-445d-bca0-b5c557f0aebb</elementGuidId>
+   <elementGuidId>eabb24b6-c7c3-4411-b8d4-8201bf0daee0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='vehicle-ctas1-app-root']/div/div[3]/a</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='vehicle-ctas1-app-root']/div/div[3]/a NEED WORK</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Get Todays Price</name>
    <tag></tag>
-   <elementGuidId>41373c61-0f14-4c0f-b005-1e12bc5eb23a</elementGuidId>
+   <elementGuidId>96012e8a-6577-4826-8d53-40ef373a8894</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='vehicle-ctas1-app-root']/div/div/a</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='vehicle-ctas1-app-root']/div/div/a  NEED WORK</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

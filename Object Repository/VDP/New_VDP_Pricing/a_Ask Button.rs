@@ -3,15 +3,11 @@
    <description></description>
    <name>a_Ask Button</name>
    <tag></tag>
-   <elementGuidId>950b9b42-0146-4482-a6db-215baa3d5ac8</elementGuidId>
+   <elementGuidId>2ab07173-6c64-498f-aa9f-0b464eeec46e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Financing Options'])[1]/following::a[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//li[contains(@class,'flex-col mr-3')]//a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

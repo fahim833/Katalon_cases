@@ -3,11 +3,11 @@
    <description></description>
    <name>Price</name>
    <tag></tag>
-   <elementGuidId>ab72587f-4a8c-4fe2-9884-cf6c44fbfb1e</elementGuidId>
+   <elementGuidId>b6de6dce-c791-485d-aac0-049bfdd91342</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='detailed-pricing1-app-root']/div/dl/dd[4]/span</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='detailed-pricing1-app-root']/div/dl/dd</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

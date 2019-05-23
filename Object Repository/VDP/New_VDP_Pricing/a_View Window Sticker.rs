@@ -3,11 +3,11 @@
    <description></description>
    <name>a_View Window Sticker</name>
    <tag></tag>
-   <elementGuidId>b5653569-e317-4e7e-a19f-ae8b5ceab9db</elementGuidId>
+   <elementGuidId>96400a7f-d2d2-4e86-98e3-b84707513d0b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'View Window Sticker')]</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//a[contains(text(),'View Window Sticker')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

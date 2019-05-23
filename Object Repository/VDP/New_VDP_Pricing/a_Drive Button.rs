@@ -3,15 +3,11 @@
    <description></description>
    <name>a_Drive Button</name>
    <tag></tag>
-   <elementGuidId>68ebaaec-83da-415d-8546-855c118f005a</elementGuidId>
+   <elementGuidId>6608ba44-ff5a-4ad0-9586-8c9f4db9d1de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Financing Options'])[1]/following::a[2]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
+         <value>//div[@class='container vdp-details-container']//li[2]//a[1] NEED WORK</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

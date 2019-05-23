@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Value Your Trade</name>
    <tag></tag>
-   <elementGuidId>b63c3c02-dd2e-474d-9d50-d6ffcc907aba</elementGuidId>
+   <elementGuidId>0b958f95-91cd-4763-8c9a-a3b4e84f3a06</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='vehicle-ctas1-app-root']/div/div[2]/a</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='vehicle-ctas1-app-root']/div/div[2]/a  NEED WORK</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

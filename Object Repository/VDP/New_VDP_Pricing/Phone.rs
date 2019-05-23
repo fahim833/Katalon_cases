@@ -3,11 +3,11 @@
    <description></description>
    <name>Phone</name>
    <tag></tag>
-   <elementGuidId>5a4511da-f187-4ef0-a470-eda17aeb2396</elementGuidId>
+   <elementGuidId>df74b73d-fac0-442a-85c3-2e67196405e2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Financing Options'])[2]/following::li[1]</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[11]/div/ul/li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

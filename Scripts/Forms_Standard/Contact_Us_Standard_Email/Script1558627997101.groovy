@@ -28,8 +28,30 @@ String contactURL = WebUI.concatenate((([GlobalVariable.URLBase, GlobalVariable.
 WebUI.navigateToUrl(contactURL)
 
 //Determine OEM Manufacturer
+String oem = WebUI.executeJavaScript('return DDC.dataLayer.site.franchises;', null)
+//Get the OEM
+//Remove opening [* and closing *]
+def stripChars = { string, stripChars ->
+	def list = string as List
+	list.removeAll(stripChars as List)
+	list.join()
+}
 
-String oemManufacturer = WebUI.executeJavaScript("return DDC.dataLayer.site.franchises;", null)
+String cleanOEM = stripChars(oem , '["]')
+println(cleanOEM)
+
+switch (cleanOEM) {
+    case 'audi':
+        GlobalVariable.FirstName = 'Sendto'
+        GlobalVariable.LastName = 'All'
+        break
+    case 'volkswagen':
+        GlobalVariable.FirstName = 'Ricardo'
+        GlobalVariable.LastName = 'Martinez'
+        break
+    default:
+        break
+}
 
 //If certain OEM, change default pre-fill information.
 'Enter the First Name'

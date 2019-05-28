@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Compare the title of the EPrice button to the pop-up form title on New VLP</description>
+   <name>Compare_EPrice_Form_Title_New_VLP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4db2fbee-97a3-4e79-95dc-5ce412ca8bdd</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>ba75d465-1569-4a67-9e97-2964e8bea81c</id>
+      <masked>false</masked>
+      <name>n</name>
+   </variable>
+</TestCaseEntity>

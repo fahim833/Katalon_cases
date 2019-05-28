@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://ricardomartinezsandbox.cms.dealer.com/'</initValue>
+      <initValue>'http://syedrahmansandbox.cms.dealer.com/'</initValue>
       <name>URLBase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Default Last Name</description>
-      <initValue>'Dealer.com'</initValue>
+      <initValue>'Dealercom'</initValue>
       <name>LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -68,5 +68,20 @@
       <description>Default Zip Code</description>
       <initValue>'10010'</initValue>
       <name>Zip</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'new-inventory/index.htm'</initValue>
+      <name>URLStubNewVLP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'used-inventory/index.htm'</initValue>
+      <name>URLStubUsedVLP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'all-inventory/index.htm'</initValue>
+      <name>URLStubAllVLP</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

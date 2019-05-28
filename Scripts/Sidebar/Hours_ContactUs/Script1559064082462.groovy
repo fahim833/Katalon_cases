@@ -13,17 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Open the Browser'
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://syedrahmansandbox.cms.dealer.com/')
+'Get the Desired URL'
+String contactUSURL = WebUI.concatenate((([GlobalVariable.URLBase, GlobalVariable.URLStubContact]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Compare/Page_Syeds Audi  Audi Dealership in/a_NewInventory Search'))
+'Open the Desired URL'
+WebUI.navigateToUrl(contactUSURL)
 
-WebUI.click(findTestObject('Object Repository/Compare/Page_Syeds Audi  Audi Dealership in/a_New Vehicles'))
-
-WebUI.click(findTestObject('Object Repository/Compare/Page_New Inventory  Syeds Audi/input__id'))
-
-WebUI.click(findTestObject('Object Repository/Compare/Page_New Inventory  Syeds Audi/input__id'))
+WebUI.verifyElementPresent(findTestObject('Hours/Sidebar_Hours_Widget'), 0)
 
 WebUI.closeBrowser()
 

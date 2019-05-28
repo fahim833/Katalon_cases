@@ -13,3 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Open the Browser'
+WebUI.openBrowser('')
+
+'Get the Desired URL'
+String newVLPURL = WebUI.concatenate((([GlobalVariable.URLBase, GlobalVariable.URLStubNewVLP]) as String[]), FailureHandling.STOP_ON_FAILURE)
+
+'Open the Desired URL'
+WebUI.navigateToUrl(newVLPURL)
+
+'Get the XPath for the Price Field'
+int n = 1
+
+String valueXPath = WebUI.concatenate((([findTestObject('VLP_Listing/VLP_New_Item'), '[', n, ']', findTestObject('VLP_Listing/VLP_New_Price')]) as String[]), 
+    FailureHandling.STOP_ON_FAILURE)
+
+println(valueXPath)
+
+WebUI.click(findTestObject(null))
+

@@ -44,8 +44,8 @@ println(cleanOEM)
 //Set Lead info based on OEM
 switch (cleanOEM) {
     case 'audi':
-        GlobalVariable.FirstName = 'Sendto'
-        GlobalVariable.LastName = 'All'
+        GlobalVariable.FirstName = 'Syed'
+        GlobalVariable.LastName = 'Rahman'
         break
     case 'volkswagen':
         GlobalVariable.FirstName = 'Ricardo'

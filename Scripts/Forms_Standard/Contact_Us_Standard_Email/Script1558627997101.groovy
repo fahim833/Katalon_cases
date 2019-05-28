@@ -29,17 +29,19 @@ WebUI.navigateToUrl(contactURL)
 
 //Determine OEM Manufacturer
 String oem = WebUI.executeJavaScript('return DDC.dataLayer.site.franchises;', null)
-//Get the OEM
-//Remove opening [* and closing *]
+
+//Create Function for removing characters from String
 def stripChars = { string, stripChars ->
 	def list = string as List
 	list.removeAll(stripChars as List)
 	list.join()
 }
 
+//Remove opening [* and closing *] to get the OEM
 String cleanOEM = stripChars(oem , '["]')
 println(cleanOEM)
 
+//Set Lead info based on OEM
 switch (cleanOEM) {
     case 'audi':
         GlobalVariable.FirstName = 'Sendto'

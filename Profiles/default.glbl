@@ -6,11 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'https://serrasaginawautogroup.cms.dealer.com/'</initValue>
-=======
-      <initValue>'http://ricardomartinezsandbox.cms.dealer.com/'</initValue>
->>>>>>> branch 'master' of https://github.com/fahim833/Katalon_cases.git
       <name>URLBase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -87,10 +83,5 @@
       <description></description>
       <initValue>'all-inventory/index.htm'</initValue>
       <name>URLStubAllVLP</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Parts URL Stub</description>
-      <initValue>'parts/index.htm'</initValue>
-      <name>URLStubParts</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Get Todays Price</name>
+   <name>Get ePrice</name>
    <tag></tag>
-   <elementGuidId>96012e8a-6577-4826-8d53-40ef373a8894</elementGuidId>
+   <elementGuidId>db94075a-3e7c-4699-ab8b-bb803179067a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='vehicle-ctas1-app-root']/div/div/a  NEED WORK</value>
+         <value>//a[@class='btn btn-block btn-primary dialog']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

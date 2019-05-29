@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Ask Button</name>
    <tag></tag>
-   <elementGuidId>2ab07173-6c64-498f-aa9f-0b464eeec46e</elementGuidId>
+   <elementGuidId>a512b5c2-efa7-4a41-820c-19da88820743</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

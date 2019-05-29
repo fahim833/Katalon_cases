@@ -3,11 +3,11 @@
    <description></description>
    <name>Individual_Discount_Incentives</name>
    <tag></tag>
-   <elementGuidId>7e93df10-d05b-41ee-8e0e-72d93ae86a86</elementGuidId>
+   <elementGuidId>a8c97509-4f7b-4632-8942-fe8e96f7ba46</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='detailed-pricing1-app-root']/div/dl/dd[2]</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//dd[@class='text-success discount']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

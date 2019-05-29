@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Value Your Trade</name>
    <tag></tag>
-   <elementGuidId>0b958f95-91cd-4763-8c9a-a3b4e84f3a06</elementGuidId>
+   <elementGuidId>108063ab-9e6d-4b61-8ba1-6f1c01f8d111</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='vehicle-ctas1-app-root']/div/div[2]/a  NEED WORK</value>
+         <value>//a[@class='btn btn-block btn-default'][contains(text(),'Value Your Trade')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -55,7 +55,7 @@
       <value>Value Your Trade</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

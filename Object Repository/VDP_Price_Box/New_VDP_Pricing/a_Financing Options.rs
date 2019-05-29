@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Financing Options</name>
    <tag></tag>
-   <elementGuidId>eabb24b6-c7c3-4411-b8d4-8201bf0daee0</elementGuidId>
+   <elementGuidId>e6b66e0c-3fac-4cb7-87dc-6ed3ec69cabf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='vehicle-ctas1-app-root']/div/div[3]/a NEED WORK</value>
+         <value>//a[@class='btn btn-block btn-default'][contains(text(),'Financing Options')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -55,7 +55,7 @@
       <value>Financing Options</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

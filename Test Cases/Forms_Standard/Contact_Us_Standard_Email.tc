@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Submit a Test Lead for Contact Us form</description>
+   <description>Submit a Test Lead for Contact Us form using Email as preference.</description>
    <name>Contact_Us_Standard_Email</name>
    <tag>form, test lead</tag>
    <comment></comment>

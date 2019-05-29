@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Forms-Standard" time="18" tests="4" failures="0" errors="0">
+    <testsuite name="Forms-Standard" tests="4" failures="0" errors="0" time="18" timestamp="2019-05-29 11:51:49" hostname="ricardo.martinez - 10.134.123.63" id="Test Suites/Forms-Standard">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/ricardo.martinez/git/Katalon_casesMay22/Katalon_cases/Reports/Forms-Standard/20190529_115120"/>
+            <property name="logFiles" value="/Users/ricardo.martinez/git/Katalon_casesMay22/Katalon_cases/Reports/Forms-Standard/20190529_115120/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="ricardo.martinez - 10.134.123.63"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 74.0.3729.169"/>
+            <property name="hostAddress" value="10.134.123.63"/>
+            <property name="sessionId" value="5826518d01eb31dc8b3def7e0cbd3336"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/Forms_Standard/Order_Parts_Standard_Email" classname="Test Cases/Forms_Standard/Order_Parts_Standard_Email" status="PASSED">
+            <system-out>2019-05-29 11:51:50 - [TEST_CASE][PASSED] - Test Cases/Forms_Standard/Order_Parts_Standard_Email: Test Cases/Forms_Standard/Order_Parts_Standard_Email
+
+2019-05-29 11:51:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-29 11:51:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 11:51:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-29 11:51:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 11:51:51 - [TEST_STEP][PASSED] - partsURL = concatenate([URLBase, URLStubParts], STOP_ON_FAILURE): Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','parts/index.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm'
+
+2019-05-29 11:51:52 - [MESSAGE][PASSED] - Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','parts/index.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm'
+
+2019-05-29 11:51:52 - [TEST_STEP][PASSED] - navigateToUrl(partsURL): Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm' successfully
+
+2019-05-29 11:51:53 - [MESSAGE][PASSED] - Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm' successfully
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - oem = executeJavaScript("return DDC.dataLayer.site.franchises;", null): Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:51:53 - [MESSAGE][PASSED] - Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - stripChars = { java.lang.Object string, java.lang.Object stripChars -&gt; ... }: null
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - cleanOEM = stripChars.call(oem, "["]"): null
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - switch (cleanOEM): null
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - Default: null
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - break: null
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/FirstName"), FirstName): Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:51:53 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/LastName"), LastName): Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:51:53 - [MESSAGE][PASSED] - Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Forms_Standard/Contact_Us/PreferredContact"), "Email", false): All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:51:53 - [MESSAGE][PASSED] - All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/EmailAddress"), Email): Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:51:53 - [MESSAGE][PASSED] - Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Year"), "2015"): Text '2015' is set on object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:51:53 - [MESSAGE][PASSED] - Text '2015' is set on object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:51:53 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Make"), "Honda"): Text 'Honda' is set on object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:51:54 - [MESSAGE][PASSED] - Text 'Honda' is set on object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:51:54 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Model"), "Accord"): Text 'Accord' is set on object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:51:54 - [MESSAGE][PASSED] - Text 'Accord' is set on object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:51:54 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Part_Number"), "0000"): Text '0000' is set on object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:51:54 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Forms_Standard/Parts/SubmitButton")): Object: 'Object Repository/Forms_Standard/Parts/SubmitButton' is clicked on
+
+2019-05-29 11:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Forms_Standard/Parts/SubmitButton' is clicked on
+
+2019-05-29 11:51:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 11:51:55 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Forms_Standard/Contact_Us_Standard_Email" classname="Test Cases/Forms_Standard/Contact_Us_Standard_Email" status="PASSED">
+            <system-out>2019-05-29 11:51:55 - [TEST_CASE][PASSED] - Test Cases/Forms_Standard/Contact_Us_Standard_Email: Test Cases/Forms_Standard/Contact_Us_Standard_Email
+
+2019-05-29 11:51:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-29 11:51:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 11:51:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 11:51:56 - [TEST_STEP][PASSED] - contactURL = concatenate([URLBase, URLStubContact], STOP_ON_FAILURE): Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','contact.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:51:56 - [MESSAGE][PASSED] - Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','contact.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:51:56 - [TEST_STEP][PASSED] - navigateToUrl(contactURL): Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:51:57 - [MESSAGE][PASSED] - Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - oem = executeJavaScript("return DDC.dataLayer.site.franchises;", null): Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:51:57 - [MESSAGE][PASSED] - Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - stripChars = { java.lang.Object string, java.lang.Object stripChars -&gt; ... }: null
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - cleanOEM = stripChars.call(oem, "["]"): null
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - println(cleanOEM): null
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - switch (cleanOEM): null
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - Default: null
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - break: null
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/FirstName"), FirstName): Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:51:57 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/LastName"), LastName): Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:51:57 - [MESSAGE][PASSED] - Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Forms_Standard/Contact_Us/PreferredContact"), "Email", false): All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:51:57 - [MESSAGE][PASSED] - All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/EmailAddress"), Email): Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:51:57 - [MESSAGE][PASSED] - Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/CommentForm"), "This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method."): Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:51:58 - [MESSAGE][PASSED] - Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Forms_Standard/Contact_Us/SubmitButton")): Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:51:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 11:51:59 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Forms_Standard/Contact_Us_Standard_Phone" classname="Test Cases/Forms_Standard/Contact_Us_Standard_Phone" status="PASSED">
+            <system-out>2019-05-29 11:51:59 - [TEST_CASE][PASSED] - Test Cases/Forms_Standard/Contact_Us_Standard_Phone: Test Cases/Forms_Standard/Contact_Us_Standard_Phone
+
+2019-05-29 11:51:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-29 11:51:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 11:52:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 11:52:00 - [TEST_STEP][PASSED] - contactURL = concatenate([URLBase, URLStubContact], STOP_ON_FAILURE): Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','contact.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:52:00 - [MESSAGE][PASSED] - Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','contact.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:52:00 - [TEST_STEP][PASSED] - navigateToUrl(contactURL): Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:52:01 - [MESSAGE][PASSED] - Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:52:01 - [TEST_STEP][PASSED] - oem = executeJavaScript("return DDC.dataLayer.site.franchises;", null): Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:52:02 - [MESSAGE][PASSED] - Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - stripChars = { java.lang.Object string, java.lang.Object stripChars -&gt; ... }: null
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - cleanOEM = stripChars.call(oem, "["]"): null
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - println(cleanOEM): null
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - switch (cleanOEM): null
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - Default: null
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - break: null
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/FirstName"), FirstName): Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:52:02 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/LastName"), LastName): Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:52:02 - [MESSAGE][PASSED] - Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Forms_Standard/Contact_Us/PreferredContact"), "Phone", false): All options with label 'Phone' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:52:02 - [MESSAGE][PASSED] - All options with label 'Phone' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/PhoneNumber"), PhoneNumber): Text '802-555-5555' is set on object 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber'
+
+2019-05-29 11:52:02 - [MESSAGE][PASSED] - Text '802-555-5555' is set on object 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber'
+
+2019-05-29 11:52:02 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/CommentForm"), "This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method."): Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:52:03 - [MESSAGE][PASSED] - Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:52:03 - [TEST_STEP][PASSED] - click(findTestObject("Forms_Standard/Contact_Us/SubmitButton")): Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:52:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 11:52:04 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Forms_Standard/Order_Parts_Standard_Phone" classname="Test Cases/Forms_Standard/Order_Parts_Standard_Phone" status="PASSED">
+            <system-out>2019-05-29 11:52:04 - [TEST_CASE][PASSED] - Test Cases/Forms_Standard/Order_Parts_Standard_Phone: Test Cases/Forms_Standard/Order_Parts_Standard_Phone
+
+2019-05-29 11:52:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-29 11:52:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 11:52:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 11:52:05 - [TEST_STEP][PASSED] - partsURL = concatenate([URLBase, URLStubParts], STOP_ON_FAILURE): Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','parts/index.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm'
+
+2019-05-29 11:52:05 - [MESSAGE][PASSED] - Concatenated string array: '['http://ricardomartinezsandbox.cms.dealer.com/','parts/index.htm']' into 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm'
+
+2019-05-29 11:52:05 - [TEST_STEP][PASSED] - navigateToUrl(partsURL): Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm' successfully
+
+2019-05-29 11:52:06 - [MESSAGE][PASSED] - Navigate to 'http://ricardomartinezsandbox.cms.dealer.com/parts/index.htm' successfully
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - oem = executeJavaScript("return DDC.dataLayer.site.franchises;", null): Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:52:06 - [MESSAGE][PASSED] - Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - stripChars = { java.lang.Object string, java.lang.Object stripChars -&gt; ... }: null
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - cleanOEM = stripChars.call(oem, "["]"): null
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - switch (cleanOEM): null
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - Default: null
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - break: null
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/FirstName"), FirstName): Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:52:06 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:52:06 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/LastName"), LastName): Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:52:07 - [MESSAGE][PASSED] - Text 'Dealercom' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:52:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Forms_Standard/Contact_Us/PreferredContact"), "Phone", false): All options with label 'Phone' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:52:07 - [MESSAGE][PASSED] - All options with label 'Phone' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/EmailAddress"), PhoneNumber): Text '802-555-5555' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:52:07 - [MESSAGE][PASSED] - Text '802-555-5555' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Year"), "2015"): Text '2015' is set on object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:52:07 - [MESSAGE][PASSED] - Text '2015' is set on object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Make"), "Honda"): Text 'Honda' is set on object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:52:07 - [MESSAGE][PASSED] - Text 'Honda' is set on object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Model"), "Accord"): Text 'Accord' is set on object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:52:07 - [MESSAGE][PASSED] - Text 'Accord' is set on object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Part_Number"), "0000"): Text '0000' is set on object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:52:08 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Forms_Standard/Parts/SubmitButton")): Object: 'Object Repository/Forms_Standard/Parts/SubmitButton' is clicked on
+
+2019-05-29 11:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Forms_Standard/Parts/SubmitButton' is clicked on
+
+2019-05-29 11:52:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 11:52:08 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-29 11:51:49 - [TEST_SUITE][INCOMPLETE] - Forms-Standard: null</system-out>
+        <system-err>2019-05-29 11:51:49 - [TEST_SUITE][INCOMPLETE] - Forms-Standard: null</system-err>
+    </testsuite>
+</testsuites>

@@ -14,7 +14,7 @@
       <guid>78b852bd-3739-4f30-a523-a4244f24304d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Forms_Standard/Order_Parts_Standard</testCaseId>
+      <testCaseId>Test Cases/Forms_Standard/Order_Parts_Standard_Email</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>21f903b2-e591-4036-84d9-368aa000e402</guid>
@@ -33,5 +33,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Forms_Standard/Contact_Us_Standard_Phone</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ae718e4-da52-4f27-81bf-c7f5dd966f2e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Forms_Standard/Order_Parts_Standard_Phone</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Forms-Standard,Chrome 74.0.3729.169,"Suite Containing CarFinder, ContactUs (email & phone), FinanceForm, PartsForm (email & phone), ScheduleServiceForm (email & phone) for Leads Testing. WIP",,2019-05-29 11:29:00,2019-05-29 11:29:15,15.219s,INCOMPLETE
+,,,,,,,
+Test Cases/_Dev/Order_Parts_Standard_Email,Chrome 74.0.3729.169,,,2019-05-29 11:29:00,2019-05-29 11:29:06,6.000s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,,2019-05-29 11:29:01,2019-05-29 11:29:02,1.788s,PASSED
+"partsURL = concatenate([URLBase, URLStubParts], STOP_ON_FAILURE)",Chrome 74.0.3729.169,Get the Desired URL,,2019-05-29 11:29:02,2019-05-29 11:29:03,0.281s,PASSED
+navigateToUrl(partsURL),Chrome 74.0.3729.169,Open the Desired URL,,2019-05-29 11:29:03,2019-05-29 11:29:04,1.198s,PASSED
+"oem = executeJavaScript(""return DDC.dataLayer.site.franchises;"", null)",Chrome 74.0.3729.169,Get the Site's OEM Franchise,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.023s,PASSED
+"stripChars = { java.lang.Object string, java.lang.Object stripChars -> ... }",Chrome 74.0.3729.169,,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.002s,PASSED
+"cleanOEM = stripChars.call(oem, ""[""]"")",Chrome 74.0.3729.169,,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.004s,PASSED
+switch (cleanOEM),Chrome 74.0.3729.169,,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.003s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/FirstName""), FirstName)",Chrome 74.0.3729.169,Enter the First Name,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.231s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/LastName""), LastName)",Chrome 74.0.3729.169,Enter the Last Name,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.131s,PASSED
+"selectOptionByLabel(findTestObject(""Forms_Standard/Contact_Us/PreferredContact""), ""Email"", false)",Chrome 74.0.3729.169,Select Contact Preference: Email,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.070s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/EmailAddress""), Email)",Chrome 74.0.3729.169,Enter the Email Address,,2019-05-29 11:29:04,2019-05-29 11:29:04,0.156s,PASSED
+"setText(findTestObject(""Forms_Standard/Parts/Car_Year""), ""2015"")",Chrome 74.0.3729.169,Enter the Car Year,,2019-05-29 11:29:04,2019-05-29 11:29:05,0.112s,PASSED
+"setText(findTestObject(""Forms_Standard/Parts/Car_Make""), ""Honda"")",Chrome 74.0.3729.169,Enter the Car Make,,2019-05-29 11:29:05,2019-05-29 11:29:05,0.115s,PASSED
+"setText(findTestObject(""Forms_Standard/Parts/Car_Model""), ""Accord"")",Chrome 74.0.3729.169,Enter the Car Model,,2019-05-29 11:29:05,2019-05-29 11:29:05,0.104s,PASSED
+"setText(findTestObject(""Forms_Standard/Parts/Car_Part_Number""), ""0000"")",Chrome 74.0.3729.169,Enter the Car Part Number,,2019-05-29 11:29:05,2019-05-29 11:29:05,0.093s,PASSED
+"click(findTestObject(""Forms_Standard/Parts/SubmitButton""))",Chrome 74.0.3729.169,Submit the Form,,2019-05-29 11:29:05,2019-05-29 11:29:06,1.266s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,Close the Browser,,2019-05-29 11:29:06,2019-05-29 11:29:06,0.196s,PASSED
+,,,,,,,
+Test Cases/Forms_Standard/Contact_Us_Standard_Email,Chrome 74.0.3729.169,Submit a Test Lead for Contact Us form,"form, test lead",2019-05-29 11:29:06,2019-05-29 11:29:11,4.471s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,Open the Browser,,2019-05-29 11:29:06,2019-05-29 11:29:07,0.993s,PASSED
+"contactURL = concatenate([URLBase, URLStubContact], STOP_ON_FAILURE)",Chrome 74.0.3729.169,Get the Desired URL,,2019-05-29 11:29:07,2019-05-29 11:29:07,0.003s,PASSED
+navigateToUrl(contactURL),Chrome 74.0.3729.169,Open the Desired URL,,2019-05-29 11:29:07,2019-05-29 11:29:09,1.060s,PASSED
+"oem = executeJavaScript(""return DDC.dataLayer.site.franchises;"", null)",Chrome 74.0.3729.169,,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.010s,PASSED
+"stripChars = { java.lang.Object string, java.lang.Object stripChars -> ... }",Chrome 74.0.3729.169,,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.001s,PASSED
+"cleanOEM = stripChars.call(oem, ""[""]"")",Chrome 74.0.3729.169,,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.000s,PASSED
+println(cleanOEM),Chrome 74.0.3729.169,,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.003s,PASSED
+switch (cleanOEM),Chrome 74.0.3729.169,,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.001s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/FirstName""), FirstName)",Chrome 74.0.3729.169,Enter the First Name,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.186s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/LastName""), LastName)",Chrome 74.0.3729.169,Enter the Last Name,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.134s,PASSED
+"selectOptionByLabel(findTestObject(""Forms_Standard/Contact_Us/PreferredContact""), ""Email"", false)",Chrome 74.0.3729.169,Select Contact Preference: Email,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.063s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/EmailAddress""), Email)",Chrome 74.0.3729.169,Enter the Email Address,,2019-05-29 11:29:09,2019-05-29 11:29:09,0.144s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/CommentForm""), ""This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method."")",Chrome 74.0.3729.169,Comment that this is a Test Lead,,2019-05-29 11:29:09,2019-05-29 11:29:10,0.465s,PASSED
+"click(findTestObject(""Forms_Standard/Contact_Us/SubmitButton""))",Chrome 74.0.3729.169,Submit Form,,2019-05-29 11:29:10,2019-05-29 11:29:11,1.171s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,,,2019-05-29 11:29:11,2019-05-29 11:29:11,0.097s,PASSED
+,,,,,,,
+Test Cases/Forms_Standard/Contact_Us_Standard_Phone,Chrome 74.0.3729.169,Submit a Test Lead for Contact Us form,"form, test lead",2019-05-29 11:29:11,2019-05-29 11:29:15,4.582s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,Open the Browser,,2019-05-29 11:29:11,2019-05-29 11:29:12,1.029s,PASSED
+"contactURL = concatenate([URLBase, URLStubContact], STOP_ON_FAILURE)",Chrome 74.0.3729.169,Get the Desired URL,,2019-05-29 11:29:12,2019-05-29 11:29:12,0.003s,PASSED
+navigateToUrl(contactURL),Chrome 74.0.3729.169,Open the Desired URL,,2019-05-29 11:29:12,2019-05-29 11:29:13,1.029s,PASSED
+"oem = executeJavaScript(""return DDC.dataLayer.site.franchises;"", null)",Chrome 74.0.3729.169,,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.015s,PASSED
+"stripChars = { java.lang.Object string, java.lang.Object stripChars -> ... }",Chrome 74.0.3729.169,,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.000s,PASSED
+"cleanOEM = stripChars.call(oem, ""[""]"")",Chrome 74.0.3729.169,,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.001s,PASSED
+println(cleanOEM),Chrome 74.0.3729.169,,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.000s,PASSED
+switch (cleanOEM),Chrome 74.0.3729.169,,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.001s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/FirstName""), FirstName)",Chrome 74.0.3729.169,Enter the First Name,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.198s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/LastName""), LastName)",Chrome 74.0.3729.169,Enter the Last Name,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.138s,PASSED
+"selectOptionByLabel(findTestObject(""Forms_Standard/Contact_Us/PreferredContact""), ""Phone"", false)",Chrome 74.0.3729.169,Select Contact Preference: Phone,,2019-05-29 11:29:13,2019-05-29 11:29:13,0.119s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/PhoneNumber""), PhoneNumber)",Chrome 74.0.3729.169,Enter the Phone Number,,2019-05-29 11:29:13,2019-05-29 11:29:14,0.164s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/CommentForm""), ""This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method."")",Chrome 74.0.3729.169,Comment that This is a Test Lead,,2019-05-29 11:29:14,2019-05-29 11:29:14,0.528s,PASSED
+"click(findTestObject(""Forms_Standard/Contact_Us/SubmitButton""))",Chrome 74.0.3729.169,Submit,,2019-05-29 11:29:14,2019-05-29 11:29:15,1.155s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,,,2019-05-29 11:29:15,2019-05-29 11:29:15,0.088s,PASSED

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;hours-default ddc-content box box-padding&quot;]</value>
+         <value>//div[@class=&quot;hours-default ddcC-content box box-padding&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

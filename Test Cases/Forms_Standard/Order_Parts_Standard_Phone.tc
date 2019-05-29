@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Submit a Test Lead for Parts Orde form using Phone as preference</description>
+   <name>Order_Parts_Standard_Phone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e2f3d06-cabd-403d-806f-60df97afc29d</testCaseGuid>
+</TestCaseEntity>

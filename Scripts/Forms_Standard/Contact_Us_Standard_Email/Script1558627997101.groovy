@@ -16,8 +16,6 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-KeywordLogger log = new KeywordLogger()
-
 'Open the Browser'
 WebUI.openBrowser('')
 
@@ -43,19 +41,18 @@ println(cleanOEM)
 
 //Set Lead info based on OEM
 switch (cleanOEM) {
-    case 'audi':
-        GlobalVariable.FirstName = 'Syed'
-        GlobalVariable.LastName = 'Rahman'
-        break
-    case 'volkswagen':
-        GlobalVariable.FirstName = 'Ricardo'
-        GlobalVariable.LastName = 'Martinez'
-        break
-    default:
-        break
+	case 'audi':
+		GlobalVariable.FirstName = 'Sendto'
+		GlobalVariable.LastName = 'All'
+		break
+	case 'kia':
+		GlobalVariable.LastName = 'Test'
+		GlobalVariable.Email = 'ddcsupport@email.com'
+		GlobalVariable.PhoneNumber = '111-222-3333'
+		break
+	default:
+		break
 }
-
-//If certain OEM, change default pre-fill information.
 'Enter the First Name'
 WebUI.setText(findTestObject('Forms_Standard/Contact_Us/FirstName'), GlobalVariable.FirstName)
 

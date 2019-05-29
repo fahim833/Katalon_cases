@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Forms-Standard" time="15" tests="3" failures="0" errors="0">
+    <testsuite name="Forms-Standard" tests="3" failures="0" errors="0" time="15" timestamp="2019-05-29 11:34:41" hostname="ricardo.martinez - 10.134.123.63" id="Test Suites/Forms-Standard">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="/Users/ricardo.martinez/git/Katalon_casesMay22/Katalon_cases/Reports/Forms-Standard/20190529_113420"/>
+            <property name="logFiles" value="/Users/ricardo.martinez/git/Katalon_casesMay22/Katalon_cases/Reports/Forms-Standard/20190529_113420/execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="ricardo.martinez - 10.134.123.63"/>
+            <property name="os" value="Mac OS X 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 74.0.3729.169"/>
+            <property name="hostAddress" value="10.134.123.63"/>
+            <property name="sessionId" value="257a67a23909dee22e4dd5dcfbef8240"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Mac OS X"/>
+        </properties>
+        <testcase name="Test Cases/_Dev/Order_Parts_Standard_Email" classname="Test Cases/_Dev/Order_Parts_Standard_Email" status="PASSED">
+            <system-out>2019-05-29 11:34:42 - [TEST_CASE][PASSED] - Test Cases/_Dev/Order_Parts_Standard_Email: Test Cases/_Dev/Order_Parts_Standard_Email
+
+2019-05-29 11:34:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-29 11:34:42 - [MESSAGE][INFO] - Opening browser
+
+2019-05-29 11:34:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 11:34:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-29 11:34:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 11:34:44 - [TEST_STEP][PASSED] - partsURL = concatenate([URLBase, URLStubParts], STOP_ON_FAILURE): Concatenated string array: '['http://syedrahmansandbox.cms.dealer.com/','parts/index.htm']' into 'http://syedrahmansandbox.cms.dealer.com/parts/index.htm'
+
+2019-05-29 11:34:44 - [MESSAGE][INFO] - Checking strings parameter
+
+2019-05-29 11:34:44 - [MESSAGE][INFO] - Concatenating string array: '['http://syedrahmansandbox.cms.dealer.com/','parts/index.htm']'
+
+2019-05-29 11:34:44 - [MESSAGE][PASSED] - Concatenated string array: '['http://syedrahmansandbox.cms.dealer.com/','parts/index.htm']' into 'http://syedrahmansandbox.cms.dealer.com/parts/index.htm'
+
+2019-05-29 11:34:44 - [TEST_STEP][PASSED] - navigateToUrl(partsURL): Navigate to 'http://syedrahmansandbox.cms.dealer.com/parts/index.htm' successfully
+
+2019-05-29 11:34:44 - [MESSAGE][INFO] - Checking url
+
+2019-05-29 11:34:44 - [MESSAGE][INFO] - Navigating to 'http://syedrahmansandbox.cms.dealer.com/parts/index.htm'
+
+2019-05-29 11:34:45 - [MESSAGE][PASSED] - Navigate to 'http://syedrahmansandbox.cms.dealer.com/parts/index.htm' successfully
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - oem = executeJavaScript("return DDC.dataLayer.site.franchises;", null): Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:34:45 - [MESSAGE][PASSED] - Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - stripChars = { java.lang.Object string, java.lang.Object stripChars -&gt; ... }: null
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - cleanOEM = stripChars.call(oem, "["]"): null
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - switch (cleanOEM): null
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - case "audi":: null
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - FirstName = "Sendto": null
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - LastName = "All": null
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - break: null
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/FirstName"), FirstName): Text 'Sendto' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/FirstName' located by 'By.xpath: //*[@name = 'contact.firstName']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/FirstName' located by 'By.xpath: //*[@name = 'contact.firstName']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/FirstName' to value 'Sendto'
+
+2019-05-29 11:34:45 - [MESSAGE][PASSED] - Text 'Sendto' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/LastName"), LastName): Text 'All' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/LastName' located by 'By.xpath: //*[@name = 'contact.lastName']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/LastName' located by 'By.xpath: //*[@name = 'contact.lastName']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/LastName' to value 'All'
+
+2019-05-29 11:34:45 - [MESSAGE][PASSED] - Text 'All' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Forms_Standard/Contact_Us/PreferredContact"), "Email", false): All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking label parameter
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' located by 'By.xpath: //*[@name = 'contact.preferredContact']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' located by 'By.xpath: //*[@name = 'contact.preferredContact']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' with label 'Email' 
+
+2019-05-29 11:34:45 - [MESSAGE][PASSED] - All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/EmailAddress"), Email): Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/EmailAddress' located by 'By.xpath: //form[@role='form']//input[@name='contact.email']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/EmailAddress' located by 'By.xpath: //form[@role='form']//input[@name='contact.email']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress' to value 'test@test.com'
+
+2019-05-29 11:34:45 - [MESSAGE][PASSED] - Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Year"), "2015"): Text '2015' is set on object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Parts/Car_Year' located by 'By.xpath: //*[@name = 'year']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Parts/Car_Year' located by 'By.xpath: //*[@name = 'year']' in '30' second(s)
+
+2019-05-29 11:34:45 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Parts/Car_Year' to value '2015'
+
+2019-05-29 11:34:46 - [MESSAGE][PASSED] - Text '2015' is set on object 'Object Repository/Forms_Standard/Parts/Car_Year'
+
+2019-05-29 11:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Make"), "Honda"): Text 'Honda' is set on object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Parts/Car_Make' located by 'By.xpath: //*[@name = 'make']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Parts/Car_Make' located by 'By.xpath: //*[@name = 'make']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Parts/Car_Make' to value 'Honda'
+
+2019-05-29 11:34:46 - [MESSAGE][PASSED] - Text 'Honda' is set on object 'Object Repository/Forms_Standard/Parts/Car_Make'
+
+2019-05-29 11:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Model"), "Accord"): Text 'Accord' is set on object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Parts/Car_Model' located by 'By.xpath: //*[@name = 'model']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Parts/Car_Model' located by 'By.xpath: //*[@name = 'model']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Parts/Car_Model' to value 'Accord'
+
+2019-05-29 11:34:46 - [MESSAGE][PASSED] - Text 'Accord' is set on object 'Object Repository/Forms_Standard/Parts/Car_Model'
+
+2019-05-29 11:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Parts/Car_Part_Number"), "0000"): Text '0000' is set on object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Parts/Car_Part_Number' located by 'By.xpath: //*[@name = 'partNumber1']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Parts/Car_Part_Number' located by 'By.xpath: //*[@name = 'partNumber1']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Parts/Car_Part_Number' to value '0000'
+
+2019-05-29 11:34:46 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/Forms_Standard/Parts/Car_Part_Number'
+
+2019-05-29 11:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Forms_Standard/Parts/SubmitButton")): Object: 'Object Repository/Forms_Standard/Parts/SubmitButton' is clicked on
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Parts/SubmitButton'
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Parts/SubmitButton' located by 'By.xpath: //div[@data-widget-name='parts-lead']//button[@type='submit']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Parts/SubmitButton' located by 'By.xpath: //div[@data-widget-name='parts-lead']//button[@type='submit']' in '30' second(s)
+
+2019-05-29 11:34:46 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Forms_Standard/Parts/SubmitButton'
+
+2019-05-29 11:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Forms_Standard/Parts/SubmitButton' is clicked on
+
+2019-05-29 11:34:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 11:34:47 - [MESSAGE][INFO] - Closing browser
+
+2019-05-29 11:34:47 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Forms_Standard/Contact_Us_Standard_Email" classname="Test Cases/Forms_Standard/Contact_Us_Standard_Email" status="PASSED">
+            <system-out>2019-05-29 11:34:47 - [TEST_CASE][PASSED] - Test Cases/Forms_Standard/Contact_Us_Standard_Email: Test Cases/Forms_Standard/Contact_Us_Standard_Email
+
+2019-05-29 11:34:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-29 11:34:47 - [MESSAGE][INFO] - Opening browser
+
+2019-05-29 11:34:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 11:34:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 11:34:48 - [TEST_STEP][PASSED] - contactURL = concatenate([URLBase, URLStubContact], STOP_ON_FAILURE): Concatenated string array: '['http://syedrahmansandbox.cms.dealer.com/','contact.htm']' into 'http://syedrahmansandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:34:48 - [MESSAGE][INFO] - Checking strings parameter
+
+2019-05-29 11:34:48 - [MESSAGE][INFO] - Concatenating string array: '['http://syedrahmansandbox.cms.dealer.com/','contact.htm']'
+
+2019-05-29 11:34:48 - [MESSAGE][PASSED] - Concatenated string array: '['http://syedrahmansandbox.cms.dealer.com/','contact.htm']' into 'http://syedrahmansandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:34:48 - [TEST_STEP][PASSED] - navigateToUrl(contactURL): Navigate to 'http://syedrahmansandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:34:48 - [MESSAGE][INFO] - Checking url
+
+2019-05-29 11:34:48 - [MESSAGE][INFO] - Navigating to 'http://syedrahmansandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:34:50 - [MESSAGE][PASSED] - Navigate to 'http://syedrahmansandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - oem = executeJavaScript("return DDC.dataLayer.site.franchises;", null): Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:34:50 - [MESSAGE][PASSED] - Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - stripChars = { java.lang.Object string, java.lang.Object stripChars -&gt; ... }: null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - cleanOEM = stripChars.call(oem, "["]"): null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - println(cleanOEM): null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - switch (cleanOEM): null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - case "audi":: null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - FirstName = "Sendto": null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - LastName = "All": null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - break: null
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/FirstName"), FirstName): Text 'Sendto' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/FirstName' located by 'By.xpath: //*[@name = 'contact.firstName']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/FirstName' located by 'By.xpath: //*[@name = 'contact.firstName']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/FirstName' to value 'Sendto'
+
+2019-05-29 11:34:50 - [MESSAGE][PASSED] - Text 'Sendto' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/LastName"), LastName): Text 'All' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/LastName' located by 'By.xpath: //*[@name = 'contact.lastName']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/LastName' located by 'By.xpath: //*[@name = 'contact.lastName']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/LastName' to value 'All'
+
+2019-05-29 11:34:50 - [MESSAGE][PASSED] - Text 'All' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Forms_Standard/Contact_Us/PreferredContact"), "Email", false): All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking label parameter
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' located by 'By.xpath: //*[@name = 'contact.preferredContact']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' located by 'By.xpath: //*[@name = 'contact.preferredContact']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' with label 'Email' 
+
+2019-05-29 11:34:50 - [MESSAGE][PASSED] - All options with label 'Email' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/EmailAddress"), Email): Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/EmailAddress' located by 'By.xpath: //form[@role='form']//input[@name='contact.email']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/EmailAddress' located by 'By.xpath: //form[@role='form']//input[@name='contact.email']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress' to value 'test@test.com'
+
+2019-05-29 11:34:50 - [MESSAGE][PASSED] - Text 'test@test.com' is set on object 'Object Repository/Forms_Standard/Contact_Us/EmailAddress'
+
+2019-05-29 11:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/CommentForm"), "This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method."): Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/CommentForm' located by 'By.xpath: //*[@name = 'comments']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/CommentForm' located by 'By.xpath: //*[@name = 'comments']' in '30' second(s)
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:50 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/CommentForm' to value 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.'
+
+2019-05-29 11:34:51 - [MESSAGE][PASSED] - Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:51 - [TEST_STEP][PASSED] - click(findTestObject("Forms_Standard/Contact_Us/SubmitButton")): Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:34:51 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/SubmitButton'
+
+2019-05-29 11:34:51 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:51 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:51 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' located by 'By.xpath: //div[@data-widget-name='contact-form']//button[@type='submit']' in '30' second(s)
+
+2019-05-29 11:34:51 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' located by 'By.xpath: //div[@data-widget-name='contact-form']//button[@type='submit']' in '30' second(s)
+
+2019-05-29 11:34:51 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton'
+
+2019-05-29 11:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:34:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 11:34:52 - [MESSAGE][INFO] - Closing browser
+
+2019-05-29 11:34:52 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Forms_Standard/Contact_Us_Standard_Phone" classname="Test Cases/Forms_Standard/Contact_Us_Standard_Phone" status="PASSED">
+            <system-out>2019-05-29 11:34:52 - [TEST_CASE][PASSED] - Test Cases/Forms_Standard/Contact_Us_Standard_Phone: Test Cases/Forms_Standard/Contact_Us_Standard_Phone
+
+2019-05-29 11:34:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-29 11:34:52 - [MESSAGE][INFO] - Opening browser
+
+2019-05-29 11:34:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-29 11:34:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-29 11:34:53 - [TEST_STEP][PASSED] - contactURL = concatenate([URLBase, URLStubContact], STOP_ON_FAILURE): Concatenated string array: '['http://syedrahmansandbox.cms.dealer.com/','contact.htm']' into 'http://syedrahmansandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:34:53 - [MESSAGE][INFO] - Checking strings parameter
+
+2019-05-29 11:34:53 - [MESSAGE][INFO] - Concatenating string array: '['http://syedrahmansandbox.cms.dealer.com/','contact.htm']'
+
+2019-05-29 11:34:53 - [MESSAGE][PASSED] - Concatenated string array: '['http://syedrahmansandbox.cms.dealer.com/','contact.htm']' into 'http://syedrahmansandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:34:53 - [TEST_STEP][PASSED] - navigateToUrl(contactURL): Navigate to 'http://syedrahmansandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:34:53 - [MESSAGE][INFO] - Checking url
+
+2019-05-29 11:34:53 - [MESSAGE][INFO] - Navigating to 'http://syedrahmansandbox.cms.dealer.com/contact.htm'
+
+2019-05-29 11:34:54 - [MESSAGE][PASSED] - Navigate to 'http://syedrahmansandbox.cms.dealer.com/contact.htm' successfully
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - oem = executeJavaScript("return DDC.dataLayer.site.franchises;", null): Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:34:54 - [MESSAGE][PASSED] - Execute JavaScript 'return DDC.dataLayer.site.franchises;' successfully
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - stripChars = { java.lang.Object string, java.lang.Object stripChars -&gt; ... }: null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - cleanOEM = stripChars.call(oem, "["]"): null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - println(cleanOEM): null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - switch (cleanOEM): null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - case "audi":: null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - FirstName = "Sendto": null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - LastName = "All": null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - break: null
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/FirstName"), FirstName): Text 'Sendto' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/FirstName' located by 'By.xpath: //*[@name = 'contact.firstName']' in '30' second(s)
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/FirstName' located by 'By.xpath: //*[@name = 'contact.firstName']' in '30' second(s)
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/FirstName' to value 'Sendto'
+
+2019-05-29 11:34:54 - [MESSAGE][PASSED] - Text 'Sendto' is set on object 'Object Repository/Forms_Standard/Contact_Us/FirstName'
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/LastName"), LastName): Text 'All' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/LastName' located by 'By.xpath: //*[@name = 'contact.lastName']' in '30' second(s)
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/LastName' located by 'By.xpath: //*[@name = 'contact.lastName']' in '30' second(s)
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/LastName' to value 'All'
+
+2019-05-29 11:34:54 - [MESSAGE][PASSED] - Text 'All' is set on object 'Object Repository/Forms_Standard/Contact_Us/LastName'
+
+2019-05-29 11:34:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Forms_Standard/Contact_Us/PreferredContact"), "Phone", false): All options with label 'Phone' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact'
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking label parameter
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' located by 'By.xpath: //*[@name = 'contact.preferredContact']' in '30' second(s)
+
+2019-05-29 11:34:54 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' located by 'By.xpath: //*[@name = 'contact.preferredContact']' in '30' second(s)
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Selecting options on object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' with label 'Phone' 
+
+2019-05-29 11:34:55 - [MESSAGE][PASSED] - All options with label 'Phone' are selected in object 'Object Repository/Forms_Standard/Contact_Us/PreferredContact' 
+
+2019-05-29 11:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/PhoneNumber"), PhoneNumber): Text '802-555-5555' is set on object 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber'
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber'
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber' located by 'By.xpath: //*[@name = 'contact.phone']' in '30' second(s)
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber' located by 'By.xpath: //*[@name = 'contact.phone']' in '30' second(s)
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber'
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber' to value '802-555-5555'
+
+2019-05-29 11:34:55 - [MESSAGE][PASSED] - Text '802-555-5555' is set on object 'Object Repository/Forms_Standard/Contact_Us/PhoneNumber'
+
+2019-05-29 11:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Forms_Standard/Contact_Us/CommentForm"), "This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method."): Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking text
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/CommentForm' located by 'By.xpath: //*[@name = 'comments']' in '30' second(s)
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/CommentForm' located by 'By.xpath: //*[@name = 'comments']' in '30' second(s)
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Clearing text of object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Setting text of object 'Object Repository/Forms_Standard/Contact_Us/CommentForm' to value 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.'
+
+2019-05-29 11:34:55 - [MESSAGE][PASSED] - Text 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.' is set on object 'Object Repository/Forms_Standard/Contact_Us/CommentForm'
+
+2019-05-29 11:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Forms_Standard/Contact_Us/SubmitButton")): Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Finding Test Object 'Object Repository/Forms_Standard/Contact_Us/SubmitButton'
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking object
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Checking timeout
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Finding web element with id: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' located by 'By.xpath: //div[@data-widget-name='contact-form']//button[@type='submit']' in '30' second(s)
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Found 1 web elements with id: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' located by 'By.xpath: //div[@data-widget-name='contact-form']//button[@type='submit']' in '30' second(s)
+
+2019-05-29 11:34:55 - [MESSAGE][INFO] - Clicking on object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton'
+
+2019-05-29 11:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Forms_Standard/Contact_Us/SubmitButton' is clicked on
+
+2019-05-29 11:34:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-29 11:34:57 - [MESSAGE][INFO] - Closing browser
+
+2019-05-29 11:34:57 - [MESSAGE][PASSED] - Browser is closed</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-29 11:34:41 - [TEST_SUITE][INCOMPLETE] - Forms-Standard: null</system-out>
+        <system-err>2019-05-29 11:34:41 - [TEST_SUITE][INCOMPLETE] - Forms-Standard: null</system-err>
+    </testsuite>
+</testsuites>

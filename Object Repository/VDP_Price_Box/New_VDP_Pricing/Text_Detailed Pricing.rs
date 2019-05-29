@@ -3,7 +3,7 @@
    <description></description>
    <name>Text_Detailed Pricing</name>
    <tag></tag>
-   <elementGuidId>8d0d94ac-c43c-4806-84bc-1aa04bf2b84c</elementGuidId>
+   <elementGuidId>9046e45d-cd65-4cde-ad94-04cfdc57451d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

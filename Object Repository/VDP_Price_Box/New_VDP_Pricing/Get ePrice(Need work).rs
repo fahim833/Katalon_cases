@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Get ePrice</name>
+   <name>Get ePrice(Need work)</name>
    <tag></tag>
-   <elementGuidId>db94075a-3e7c-4699-ab8b-bb803179067a</elementGuidId>
+   <elementGuidId>9568249c-7226-43da-8a11-05f23283645c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='btn btn-block btn-primary dialog']</value>
+         <value>//div[@class='price-btn cst-btn-0 mb-3']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <value>Get Today's Price</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

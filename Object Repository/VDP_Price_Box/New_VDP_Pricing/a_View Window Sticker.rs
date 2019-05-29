@@ -3,7 +3,7 @@
    <description></description>
    <name>a_View Window Sticker</name>
    <tag></tag>
-   <elementGuidId>b6f929df-ef6b-407d-b514-e3e18181529f</elementGuidId>
+   <elementGuidId>9d01874e-b0b1-41b7-9f23-08e7d30b1493</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

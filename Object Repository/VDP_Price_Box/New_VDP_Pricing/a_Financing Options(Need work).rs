@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Value Your Trade</name>
+   <name>a_Financing Options(Need work)</name>
    <tag></tag>
-   <elementGuidId>108063ab-9e6d-4b61-8ba1-6f1c01f8d111</elementGuidId>
+   <elementGuidId>6fa198ae-5642-407d-9721-7bd189b04671</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='btn btn-block btn-default'][contains(text(),'Value Your Trade')]</value>
+         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//a[contains(text(),'Financing')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,83 +31,76 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/trade-in-form.htm?itemId=81594d380a0e0adf78159ede7d67d39e&amp;vehicleId=81594d380a0e0adf78159ede7d67d39e</value>
+      <value>https://chryslercapital.com/dealer-financing?p=dealer&amp;utm_source=dealer&amp;utm_medium=referral&amp;utm_campaign=290&amp;utm_content=vehicle-details-page&amp;dealerid=60321&amp;vin=2c3ccakg1jh267931</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>target</name>
       <type>Main</type>
-      <value>_self</value>
+      <value>_blank</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
-      <value>Value Your Trade</value>
+      <value>Financing Options</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Value Your Trade</value>
+      <value>Financing Options</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vehicle-ctas1-app-root&quot;)/div[@class=&quot;vehicle-ctas&quot;]/div[@class=&quot;price-btn cst-btn-3 mb-3&quot;]/a[@class=&quot;btn btn-block btn-default&quot;]</value>
+      <value>id(&quot;vehicle-ctas1-app-root&quot;)/div[@class=&quot;vehicle-ctas&quot;]/div[@class=&quot;price-btn cst-btn-4 mb-3&quot;]/a[@class=&quot;btn btn-block btn-default&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vehicle-ctas1-app-root']/div/div[2]/a</value>
+      <value>//div[@id='vehicle-ctas1-app-root']/div/div[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Value Your Trade')]</value>
+      <value>//a[contains(text(),'Financing Options')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Get Today', &quot;'&quot;, 's Price')])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Value Your Trade'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chrysler Capital APR (51AK1C)'])[1]/following::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Financing Options'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Get Today', &quot;'&quot;, 's Price')])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/trade-in-form.htm?itemId=81594d380a0e0adf78159ede7d67d39e&amp;vehicleId=81594d380a0e0adf78159ede7d67d39e')]</value>
+      <value>//a[contains(@href, 'https://chryslercapital.com/dealer-financing?p=dealer&amp;utm_source=dealer&amp;utm_medium=referral&amp;utm_campaign=290&amp;utm_content=vehicle-details-page&amp;dealerid=60321&amp;vin=2c3ccakg1jh267931')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div[2]/a</value>
+      <value>//div[5]/div/div[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

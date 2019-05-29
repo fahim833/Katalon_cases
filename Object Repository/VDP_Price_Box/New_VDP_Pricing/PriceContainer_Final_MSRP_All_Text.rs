@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Text_Pricing-Incentives_ MSRP_Box</name>
+   <name>PriceContainer_Final_MSRP_All_Text</name>
    <tag></tag>
-   <elementGuidId>714b8a22-6b87-4d9c-b8ca-c3c52d112719</elementGuidId>
+   <elementGuidId>6b8fd04c-e384-4d89-b425-5db760057771</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

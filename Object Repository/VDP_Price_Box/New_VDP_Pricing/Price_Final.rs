@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Price</name>
+   <name>Price_Final</name>
    <tag></tag>
-   <elementGuidId>b6de6dce-c791-485d-aac0-049bfdd91342</elementGuidId>
+   <elementGuidId>b9c60a4b-ca02-41f4-b7ce-98a1ccc2b009</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//div[@id='detailed-pricing1-app-root']/div/dl/dd</value>
+         <value>//dd[@class='font-weight-bold text-muted ddc-font-size-large final-price']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

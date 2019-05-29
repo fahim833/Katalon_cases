@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Individual_Discount_Incentives</name>
+   <name>Price_All</name>
    <tag></tag>
-   <elementGuidId>a8c97509-4f7b-4632-8942-fe8e96f7ba46</elementGuidId>
+   <elementGuidId>5e9ceda2-8ac6-4d60-b9f8-10d4c23cd697</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='clearfix box box-padding box-border vdp-sidebar-main']//dd[@class='text-success discount']</value>
+         <value>//span[@class='price-value']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

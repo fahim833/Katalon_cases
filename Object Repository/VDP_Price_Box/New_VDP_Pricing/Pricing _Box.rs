@@ -3,7 +3,7 @@
    <description></description>
    <name>Pricing _Box</name>
    <tag></tag>
-   <elementGuidId>2f0ec91a-74de-44f4-9540-36ed81cd3913</elementGuidId>
+   <elementGuidId>4eabb9d5-f60a-4a09-a46c-6c6896d54742</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

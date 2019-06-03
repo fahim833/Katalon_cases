@@ -84,4 +84,9 @@
       <initValue>'all-inventory/index.htm'</initValue>
       <name>URLStubAllVLP</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'parts/index.htm'</initValue>
+      <name>URLStubParts</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

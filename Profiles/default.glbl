@@ -5,17 +5,17 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'https://willdrakesandbox.cms.dealer.com/'</initValue>
+      <description>Index Page URL</description>
+      <initValue>'https://ricardomartinezsandbox.cms.dealer.com/'</initValue>
       <name>URLBase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>About Page URL</description>
       <initValue>'dealership/about.htm'</initValue>
       <name>URLStubAboutUs</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Contact Page URL</description>
       <initValue>'contact.htm'</initValue>
       <name>URLStubContact</name>
    </GlobalVariableEntity>
@@ -70,23 +70,28 @@
       <name>Zip</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>New Inventory URL</description>
       <initValue>'new-inventory/index.htm'</initValue>
       <name>URLStubNewVLP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Used Inventory URL</description>
       <initValue>'used-inventory/index.htm'</initValue>
       <name>URLStubUsedVLP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>All Inventory URL</description>
       <initValue>'all-inventory/index.htm'</initValue>
       <name>URLStubAllVLP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Parts Page URL</description>
       <initValue>'parts/index.htm'</initValue>
       <name>URLStubParts</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Service Page URL</description>
+      <initValue>'service/index.htm'</initValue>
+      <name>URLStubService</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

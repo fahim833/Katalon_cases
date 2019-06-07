@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description>First Name</description>
-   <name>EmailAddress</name>
+   <name>PreferredContact</name>
    <tag></tag>
-   <elementGuidId>c4d2231b-3c17-4aee-9aed-828cc33380bb</elementGuidId>
+   <elementGuidId>ab4c4264-3fa8-4ce8-9f70-4da6e9814369</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'contact.firstName']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>.name = 'contact.firstName'</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@role='form']//input[@name='contact.email']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'contact.preferredContact']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>contact.firstName</value>
+      <value>contact.preferredContact</value>
    </webElementProperties>
 </WebElementEntity>

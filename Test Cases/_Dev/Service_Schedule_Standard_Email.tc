@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Schedule_form</name>
+   <name>Service_Schedule_Standard_Email</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a2318796-2698-420e-949b-225a60095ddb</testCaseGuid>

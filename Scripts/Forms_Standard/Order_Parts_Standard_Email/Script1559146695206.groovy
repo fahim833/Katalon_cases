@@ -28,7 +28,9 @@ String oem = WebUI.executeJavaScript('return DDC.dataLayer.site.franchises;', nu
 //Create Function for removing characters from String
 def stripChars = { def string, def stripChars ->
     def list = ((string) as List)
+
     list.removeAll(((stripChars) as List))
+
     list.join()
 }
 
@@ -39,13 +41,17 @@ String cleanOEM = stripChars(oem, '["]')
 switch (cleanOEM) {
     case 'audi':
         GlobalVariable.FirstName = 'Sendto'
-		GlobalVariable.LastName = 'All'
+
+        GlobalVariable.LastName = 'All'
 
         break
     case 'kia':
         GlobalVariable.LastName = 'Test'
+
         GlobalVariable.Email = 'ddcsupport@email.com'
+
         GlobalVariable.PhoneNumber = '111-222-3333'
+
         break
     default:
         break
@@ -61,7 +67,7 @@ WebUI.setText(findTestObject('Forms_Standard/Contact_Us/LastName'), GlobalVariab
 WebUI.selectOptionByLabel(findTestObject('Forms_Standard/Contact_Us/PreferredContact'), 'Email', false)
 
 'Enter the Email Address'
-WebUI.setText(findTestObject('Forms_Standard/Contact_Us/EmailAddress'), GlobalVariable.Email)
+WebUI.setText(findTestObject('Forms_Standard/EmailAddress'), GlobalVariable.Email)
 
 'Enter the Car Year'
 WebUI.setText(findTestObject('Forms_Standard/Parts/Car_Year'), '2015')

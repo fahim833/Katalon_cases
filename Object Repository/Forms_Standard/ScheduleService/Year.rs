@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>First Name</description>
-   <name>CommentForm</name>
+   <description>Car Year Field</description>
+   <name>Year</name>
    <tag></tag>
-   <elementGuidId>003da8b5-2842-4c7e-8566-396fd577e2e4</elementGuidId>
+   <elementGuidId>d374e4e8-8899-4462-b0de-5793858025b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.name = 'contact.firstName'</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'comments']</value>
+         <value>//*[@name = 'year']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>comments</value>
+      <value>year</value>
    </webElementProperties>
 </WebElementEntity>

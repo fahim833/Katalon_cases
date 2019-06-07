@@ -26,30 +26,39 @@ WebUI.navigateToUrl(contactURL)
 String oem = WebUI.executeJavaScript('return DDC.dataLayer.site.franchises;', null)
 
 //Create Function for removing characters from String
-def stripChars = { string, stripChars ->
-	def list = string as List
-	list.removeAll(stripChars as List)
-	list.join()
+def stripChars = { def string, def stripChars ->
+    def list = ((string) as List)
+
+    list.removeAll(((stripChars) as List))
+
+    list.join()
 }
 
 //Remove opening [* and closing *] to get the OEM
-String cleanOEM = stripChars(oem , '["]')
+String cleanOEM = stripChars(oem, '["]')
+
 println(cleanOEM)
 
 //Set Lead info based on OEM
 switch (cleanOEM) {
-	case 'audi':
-		GlobalVariable.FirstName = 'Sendto'
-		GlobalVariable.LastName = 'All'
-		break
-	case 'kia':
-		GlobalVariable.LastName = 'Test'
-		GlobalVariable.Email = 'ddcsupport@email.com'
-		GlobalVariable.PhoneNumber = '111-222-3333'
-		break
-	default:
-		break
+    case 'audi':
+        GlobalVariable.FirstName = 'Sendto'
+
+        GlobalVariable.LastName = 'All'
+
+        break
+    case 'kia':
+        GlobalVariable.LastName = 'Test'
+
+        GlobalVariable.Email = 'ddcsupport@email.com'
+
+        GlobalVariable.PhoneNumber = '111-222-3333'
+
+        break
+    default:
+        break
 }
+
 'Enter the First Name'
 WebUI.setText(findTestObject('Forms_Standard/Contact_Us/FirstName'), GlobalVariable.FirstName)
 
@@ -63,7 +72,7 @@ WebUI.selectOptionByLabel(findTestObject('Forms_Standard/Contact_Us/PreferredCon
 WebUI.setText(findTestObject('Forms_Standard/Contact_Us/PhoneNumber'), GlobalVariable.PhoneNumber)
 
 'Comment that This is a Test Lead'
-WebUI.setText(findTestObject('Forms_Standard/Contact_Us/CommentForm'), 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.')
+WebUI.setText(findTestObject('Forms_Standard/CommentForm'), 'This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method.')
 
 'Submit'
 WebUI.click(findTestObject('Forms_Standard/Contact_Us/SubmitButton'))

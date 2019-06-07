@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://serrasaginawautogroup.cms.dealer.com/'</initValue>
+      <initValue>'https://willdrakesandbox.cms.dealer.com/'</initValue>
       <name>URLBase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

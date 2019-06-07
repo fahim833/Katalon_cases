@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Forms-Standard,Chrome 75.0.3770.80,"Suite Containing CarFinder, ContactUs (email & phone), FinanceForm, PartsForm (email & phone), ScheduleServiceForm (email & phone) for Leads Testing. WIP",,2019-06-07 09:19:51,2019-06-07 09:19:56,5.230s,INCOMPLETE
+,,,,,,,
+Test Cases/Forms_Standard/Contact_Us_Standard_Email,Chrome 75.0.3770.80,Submit a Test Lead for Contact Us form using Email as preference.,"form, test lead",2019-06-07 09:19:51,2019-06-07 09:19:56,5.082s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 75.0.3770.80,,,2019-06-07 09:19:52,2019-06-07 09:19:52,0.003s,PASSED
+"openBrowser("""")",Chrome 75.0.3770.80,Open the Browser,,2019-06-07 09:19:52,2019-06-07 09:19:53,1.174s,PASSED
+"contactURL = concatenate([URLBase, URLStubContact], STOP_ON_FAILURE)",Chrome 75.0.3770.80,Get the Desired URL,,2019-06-07 09:19:53,2019-06-07 09:19:53,0.285s,PASSED
+navigateToUrl(contactURL),Chrome 75.0.3770.80,Open the Desired URL,,2019-06-07 09:19:53,2019-06-07 09:19:54,1.465s,PASSED
+"oem = executeJavaScript(""return DDC.dataLayer.site.franchises;"", null)",Chrome 75.0.3770.80,Determine OEM Manufacturer,,2019-06-07 09:19:54,2019-06-07 09:19:55,0.022s,PASSED
+"stripChars = { java.lang.Object string, java.lang.Object stripChars -> ... }",Chrome 75.0.3770.80,Create Function for removing characters from String,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.002s,PASSED
+"cleanOEM = stripChars.call(oem, ""[""]"")",Chrome 75.0.3770.80,,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.003s,PASSED
+println(cleanOEM),Chrome 75.0.3770.80,,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.002s,PASSED
+switch (cleanOEM),Chrome 75.0.3770.80,,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.003s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/FirstName""), FirstName)",Chrome 75.0.3770.80,Enter the First Name,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.150s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/LastName""), LastName)",Chrome 75.0.3770.80,Enter the Last Name,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.088s,PASSED
+"log.logInfo("" What's up dude"")",Chrome 75.0.3770.80,,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.005s,PASSED
+"selectOptionByLabel(findTestObject(""Forms_Standard/Contact_Us/PreferredContact""), ""Email"", false)",Chrome 75.0.3770.80,Select Contact Preference: Email,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.054s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/EmailAddress""), Email)",Chrome 75.0.3770.80,Enter the Email Address,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.112s,PASSED
+"setText(findTestObject(""Forms_Standard/Contact_Us/CommentForm""), ""This is a Test Lead to verify the Contact Us form functionality using Phone as preferred method."")",Chrome 75.0.3770.80,Comment that this is a Test Lead,,2019-06-07 09:19:55,2019-06-07 09:19:55,0.405s,PASSED
+"click(findTestObject(""Forms_Standard/Contact_Us/SubmitButton""))",Chrome 75.0.3770.80,Submit Form,,2019-06-07 09:19:55,2019-06-07 09:19:56,1.047s,PASSED
+closeBrowser(),Chrome 75.0.3770.80,,,2019-06-07 09:19:56,2019-06-07 09:19:56,0.081s,PASSED

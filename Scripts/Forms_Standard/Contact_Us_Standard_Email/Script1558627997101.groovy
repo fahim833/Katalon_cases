@@ -1,20 +1,12 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.WebElement as WebElement
-//Delete after logging proves successful
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+
+KeywordLogger log = new KeywordLogger()
 
 'Open the Browser'
 WebUI.openBrowser('')
@@ -25,10 +17,10 @@ String contactURL = WebUI.concatenate((([GlobalVariable.URLBase, GlobalVariable.
 'Open the Desired URL'
 WebUI.navigateToUrl(contactURL)
 
-//Determine OEM Manufacturer
+'Determine OEM Manufacturer'
 String oem = WebUI.executeJavaScript('return DDC.dataLayer.site.franchises;', null)
 
-//Create Function for removing characters from String
+'Create Function for removing characters from String'
 def stripChars = { string, stripChars ->
 	def list = string as List
 	list.removeAll(stripChars as List)
@@ -58,6 +50,8 @@ WebUI.setText(findTestObject('Forms_Standard/Contact_Us/FirstName'), GlobalVaria
 
 'Enter the Last Name'
 WebUI.setText(findTestObject('Forms_Standard/Contact_Us/LastName'), GlobalVariable.LastName)
+
+log.logInfo(" What's up dude")
 
 'Select Contact Preference: Email'
 WebUI.selectOptionByLabel(findTestObject('Forms_Standard/Contact_Us/PreferredContact'), 'Email', false)

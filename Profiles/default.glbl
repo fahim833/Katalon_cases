@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>Index Page URL</description>
-      <initValue>'https://ricardomartinezsandbox.cms.dealer.com/'</initValue>
+      <initValue>'http://theusedcarfactorygroup.cms.dealer.com/'</initValue>
       <name>URLBase</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

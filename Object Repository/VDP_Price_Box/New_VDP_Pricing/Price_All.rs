@@ -6,11 +6,15 @@
    <elementGuidId>5e9ceda2-8ac6-4d60-b9f8-10d4c23cd697</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;detailed-pricing1-app-root&quot;)/div[1]/dl[@class=&quot;pricing-detail line-height-condensed mb-sm-4 inv-type-new&quot;]/dd[@class=&quot;text-success discount&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//span[@class='price-value']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,11 +45,11 @@
       <value>-$2,981</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;detailed-pricing1-app-root&quot;)/div[1]/dl[@class=&quot;pricing-detail line-height-condensed mb-sm-4 inv-type-new&quot;]/dd[@class=&quot;text-success discount&quot;]</value>
+      <value>//span[@class='price-value']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>

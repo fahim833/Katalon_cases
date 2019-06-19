@@ -6,12 +6,16 @@
    <elementGuidId>b9c60a4b-ca02-41f4-b7ce-98a1ccc2b009</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;detailed-pricing1-app-root&quot;)/div[1]/dl[@class=&quot;pricing-detail line-height-condensed mb-sm-4 inv-type-new&quot;]/dd[@class=&quot;font-weight-bold text-muted ddc-font-size-large final-price&quot;]/span[@class=&quot;price-value&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//dd[@class='font-weight-bold text-muted ddc-font-size-large final-price']
 </value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,11 +53,12 @@
       <value>$25,944</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;detailed-pricing1-app-root&quot;)/div[1]/dl[@class=&quot;pricing-detail line-height-condensed mb-sm-4 inv-type-new&quot;]/dd[@class=&quot;font-weight-bold text-muted ddc-font-size-large final-price&quot;]/span[@class=&quot;price-value&quot;]</value>
+      <value>//dd[@class='font-weight-bold text-muted ddc-font-size-large final-price']
+</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
